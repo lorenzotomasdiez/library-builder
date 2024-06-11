@@ -6,6 +6,7 @@ import { resolve } from "path";
 import dts from "vite-plugin-dts";
 import tailwindcss from "tailwindcss";
 import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,6 +38,11 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./lib/setupTests.ts'],
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "lib"),
+    },
   },
   css: {
     postcss: {
