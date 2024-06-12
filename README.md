@@ -1,4 +1,4 @@
-Building a React Component Library: A Complete Guide with Vite, Vitest, TypeScript, Tailwind CSS, and Storybook
+# Building a React Component Library: A Complete Guide with Vite, Vitest, TypeScript, Tailwind CSS, and Storybook
 
 While attempting to build my library, I realized there wasn't a comprehensive tutorial or article that combined all the necessary tools to successfully create a modern library. This guide aims to fill that gap, providing you with the steps to build a library that can be installed and used in any project, regardless of the framework or library used in the main app.
 
